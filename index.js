@@ -12,10 +12,6 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/header", (req, res) => {
-  res.render("header");
-});
-
 app.get("/about", (req, res) => {
   res.render("about");
 });
@@ -28,10 +24,6 @@ app.get("/create", (req, res) => {
   res.render("create");
 });
 
-app.get("/footer", (req, res) => {
-  res.render("footer");
-});
-// Start the server
 app.listen(port, () => {
   console.log(`Server started on port ${port}.`);
 });
