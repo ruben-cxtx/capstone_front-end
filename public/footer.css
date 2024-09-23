@@ -1,0 +1,43 @@
+footer {
+  background-color: #182978;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+ul li a,
+ul li {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.social_media a {
+  padding: 0.5rem;
+}
